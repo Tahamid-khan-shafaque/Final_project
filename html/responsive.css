@@ -1,0 +1,219 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 740px) {
+    .toggle_btn{
+        display: flex;
+    }
+    .navbar_links{
+     display: none;
+     width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar_links ul{
+        width: 100%;
+     flex-direction: column;
+    }
+    .navbar_links li{
+text-align: center;
+    }
+    .navbar_links li a{
+        padding: .5rem 1rem;
+    }
+    .navbar_links.active{
+        display: flex;
+    }
+    .home_text{
+        font-size: 2rem
+    }
+    .home_btn{
+        padding: .3em .8em;
+        background-color: brown;
+        color: #fff;
+    }
+   
+    .heading{
+        font-size: 2rem;
+    }
+    .header{
+        font-size: 1.8rem;
+    }
+    .reveiw_img {
+        height: 29px;
+      }
+      .review_txt > p {
+      
+        font-size: 0.6rem;
+      }
+      .footer_first > h1 {
+        font-size: 1rem;
+      }
+      .footer_second p {
+        font-size: .5rem;
+      }
+      .footer_third > h2 {
+        font-size: 1rem;
+      }
+      .footer_third > p {
+        font-size: 0.5rem;
+      }
+      .footer_fourth > h2 {
+        font-size: 0.8rem;
+      }
+      .footer_fourth > .fab {
+        font-size: 0.7rem;
+      }
+      .footer_first > .fab {
+        font-size: 0.8rem;
+      }
+      .footer_copyright {
+      
+        font-size: 0.8rem;
+      }
+      .quality_txt p{
+        font-size: 0.9rem;
+      }
+      .quality_text>p{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 530px){
+  .home_text {
+    font-size: 0.8rem;
+  }
+    .footer_third > h2 {
+        font-size: 0.7rem;
+      }
+      .footer_first > h1 {
+        font-size: 0.6rem;
+      }
+      .footer_fourth > h2 {
+        font-size: 0.6rem;
+      }
+      .heading {
+        font-size: 1.5rem;
+      }
+      .header {
+        font-size: 1.5rem;
+      }
+      .reveiw_img {
+        height: 19px;
+      }
+      .review_txt > h2 {
+        color: yellow;
+        font-size: 0.8rem;
+      }
+      .reviews_box {
+        background-color: darkred;
+      }
+}
+
+
+@media (max-width: 370px){
+  .home_text {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 270px){
+  .home_text {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+
+
+  @media (max-width: 1080px){
+    .home_text {
+      font-size: 1.8rem;
+    }
+
+
+
+}
+@media (max-width: 280px){
+    .logo {
+        font-size: .7em;
+      }
+      .toggle_btn {
+     
+        top: .7rem;
+        right: 0.5rem;
+        width: 22px;
+        height: 15px;
+      }
+      .home_text {
+        font-size: 1.2rem;
+      }
+      .home_btn {
+        padding: .1em 0.1em;
+      }
+      .home_bg_text {
+        font-size: 1rem;
+      }
+      .home_btn {
+        padding: .1em 0.1em;
+      }
+      .items_img {
+        width: 21%;
+      }
+      .navbar_links li a {
+        padding: .1rem 0.5rem;
+      }
+      .review_txt > h2 {
+        font-size: 0.6rem;
+      }
+      .reveiw_img {
+        height: 15px;
+      }
+      .review_txt > p {
+        font-size: 0.4rem;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:690px){
+    .home_text{
+        font-size: 0.8rem
+    }
+    .home_btn{
+        padding: .3em 0.7em;
+        background-color: darkred;
+        color: white;
+        margin-right: 0.5em;
+      
+    }
+
+}
